@@ -11,10 +11,17 @@
 typescript 프로젝트 초기화
 ~~~
 typescript-tutorial
+> npm init
 > npm i -g typescript
 > npm ls -g -depth=0
 > tsc -v
-> tsc --init
+> tsc --init # tsconfig.json 파일이 생성됨
+~~~
+
+module 설치
+~~~
+> npm i -D ts-node # 빌드없이 바로 실행해서 콘솔에서 확인할 수 있음
+> npm i nodemon # 서버 재기동 없이 실행시켜주는 것
 ~~~
 
 tsconfig.json 설정
