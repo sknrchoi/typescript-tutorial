@@ -1,4 +1,4 @@
-import {init, exit} from "./myPackage";
+/*import {init, exit} from "./myPackage";
 
 init({
     debug:true,
@@ -7,4 +7,5 @@ init({
 
 exit(1)
 
-localStorage.clear()
+localStorage.clear()*/
+console.log("h2")
